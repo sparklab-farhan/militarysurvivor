@@ -9193,7 +9193,6 @@ div.mean-container a.meanmenu-reveal {
 	32. settings css
 ----------------------------------------*/
 .bd-theme-settings-area {
-  display: none;
   position: fixed;
   top: 50%;
   inset-inline-start: 0;
@@ -9226,6 +9225,7 @@ div.mean-container a.meanmenu-reveal {
   inset-inline-start: 100%;
 }
 .bd-theme-settings-open button {
+  display: none;
   background-color: var(--clr-common-white);
   border: 1px solid #eaeaef;
   border-inset-inline-start: 0;
